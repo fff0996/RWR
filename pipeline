@@ -1,0 +1,39 @@
+#!/usr/bin/perl
+
+
+use strict;
+use warnings;
+
+my $list_drug= $ARGV[0];
+my $net = $ARGV[1];
+my $db = $ARGV[2];
+my $outdir=$ARGV[3];
+
+
+`mkdir $outdir`;
+
+`perl make_geneweight.pl $db ./$outdir/gene_weight.txt`;
+
+print"			1.make geneweight\n";
+
+`perl make_genelist.pl $net $db ./$outdir/whole_gene.txt`;
+
+print"			2.make gene list\n";
+
+`gcc RandomWalkScoring7.c -o bb.out`;
+
+print"			3.RandomWalk\n";
+
+open(R,">./$outdir/result.txt");
+open(L,$list_drug);
+while(<L>){
+
+   my $i=$_;
+   chomp($i);
+   `perl pipeline.pl $i $net $db $outdir`;
+    open(V,./$outdir/vector.txt);
+    
+    
+}
+close L;
+
