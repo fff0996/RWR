@@ -33,7 +33,7 @@ input file3: output (output file)
  .....
  ``````````````````````
  make_geneweight.pl
- ==================
+ ========================
  Frequency gene count
  If geneA count is high, geneA's weight is high
  
