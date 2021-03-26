@@ -85,6 +85,8 @@ input Drug's target gene2\tweight
 input Drug's target gene3\tweight
 ....
 ```````````````````````````````````
+Randomwalkingscore.c
+=================================
 
  
  
