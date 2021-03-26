@@ -102,14 +102,7 @@ input file1: whole_gene (make_genelist.pl output file)
  .....
  ```````````````````````````````````````````````````````
  input file2: net
- ```````````````````````````````````````````````````````
- #Entrez(integar)
-gene1\tgene2\tscore
-gene3\tgene4\tscore
-gene3\tgene9\tscore
-....
-````````````````````````````````````````````````````````
-input 
+ 
  
  
 
