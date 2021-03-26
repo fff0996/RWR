@@ -89,19 +89,15 @@ RandomWalkingScoring.c
 =================================
 Randomwalkscoring
 
-input file1: whole_gene (make_genelist.pl output file)
-````````````````````````````````````````````````````````
-#Entrez(integar)
- gene1
- gene2
- gene3
- gene4
- gene5
- gene9
- gene10
- .....
- ```````````````````````````````````````````````````````
- input file2: net
+input file1: whole_gene(make_genelist.pl output)
+```````````````````````````````````````````````````
+Target1\tgene3\tgene5\tgene1....
+Target2\tgene1\tgene9...
+Taget3\tgene10....
+...
+````````````````````````````````````````````````````
+
+
  
  
  
