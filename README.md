@@ -21,7 +21,7 @@ Taget3\tgene10....
 ...
 ```````````````````````
 input file3: output (output file)
-````````````````````````````
+`````````````````````
 #Entrez(integar)
  gene1
  gene2
@@ -31,7 +31,7 @@ input file3: output (output file)
  gene9
  gene10
  .....
- ```````````````````````````
+ ``````````````````````````
  make_geneweight.pl
  ========================
  Frequency gene count
