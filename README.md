@@ -47,15 +47,44 @@ Taget3\tgene10....
 ``````````````````
 input file2: output (output file)
 ```````````````````
-gene1\t2
-gene3\t1
-gene5\t1
-gene9\t1
-gene10\t1
+gene1\tcount
+gene3\tcount
+gene5\tcount
+gene9\tcount
+gene10\tcount
 ...
 ```````````````````
 make_input_drug.pl
 ==================
+To make input_drug(vector).
+input_drug(gene) is geneset.
+
+input 1:drug_name
+
+input file2: db
+````````````````````
+ #Entrez(integar)
+Target1\tgene3\tgene5\tgene1....
+Target2\tgene1\tgene9...
+Taget3\tgene10....
+...
+````````````````````
+input file3: gene_weight (make_geneweight.pl outputfile)
+``````````````````````````````````````````````````````````
+gene1\tcount
+gene3\tcount
+gene5\tcount
+gene9\tcount
+gene10\tcount
+...
+``````````````````````````````````````````````````````````
+input file4: geneset (output file)
+```````````````````````````````````
+input Drug's target gene1\tweight
+input Drug's target gene2\tweight
+input Drug's target gene3\tweight
+....
+```````````````````````````````````
 
  
  
