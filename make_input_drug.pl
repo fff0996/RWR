@@ -37,27 +37,28 @@ while(<G>){
 	$gene{$line[0]}=$line[1];
 }
 close G;
-my @gene=sort{$a <=> $b}(keys %gene);
-#for my $u (@gene){
-#	print $u,"\n";
-#}
-#binary search
-for my $value (@{$hash{$drug}}){
-	my $first=0;
-	my $last=(scalar @gene) -1;
-	my $index=-1;
-	while($first <= $last and $index=-1){
-		my $mid=int(($first+$last)/2);
-		if($value == $gene[$mid]){
-			$index=$mid;
-			print O $value,"\t",$gene{$value},"\n";
-			last;
-		}elsif($value < $gene[$mid]){
-			$last=$mid-1;
-		}else{
-			$first=$mid+1;
-		}
-	}
+#my @gene=sort{$a <=> $b}(keys %gene);
+for my $i (@{$hash{$drug}}){
+	print O $i,"\t",$gene{$i},"\n";
 }
-close O;
+#binary search
+
+#for my $value (@{$hash{$drug}}){
+#	my $first=0;
+#	my $last=(scalar @gene) -1;
+#	my $index=-1;
+#	while($first <= $last and $index=-1){
+#		my $mid=int(($first+$last)/2);
+#		if($value == $gene[$mid]){
+#			$index=$mid;
+#			print O $value,"\t",$gene{$value},"\n";
+#			last;
+#		}elsif($value < $gene[$mid]){
+#			$last=$mid-1;
+#		}else{
+#			$first=$mid+1;
+#		}
+#	}
+#}
+#close O;
 		
