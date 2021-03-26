@@ -36,8 +36,25 @@ input file3: output (output file)
  ========================
  Frequency gene count
  If geneA count is high, geneA's weight is high
- 
+ So we count db's gene
  input file1: db
+ `````````````````
+ #Entrez(integar)
+Target1\tgene3\tgene5\tgene1....
+Target2\tgene1\tgene9...
+Taget3\tgene10....
+...
+``````````````````
+input file2: output (output file)
+```````````````````
+gene1\t2
+gene3\t1
+gene5\t1
+gene9\t1
+gene10\t1
+...
+```````````````````
+
  
  
 
