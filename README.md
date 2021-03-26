@@ -96,8 +96,26 @@ Target2\tgene1\tgene9...
 Taget3\tgene10....
 ...
 ````````````````````````````````````````````````````
+input file2: net
+`````````````````````````````
+gene1\tgene2\tscore
+gene3\tgene4\tscore
+gene3\tgene9\tscore
+....
+`````````````````````````````
+input file3: geneset(make_input_drug.pl output file)
+``````````````````````````````````````````````````````
+input Drug's target gene1\tweight
+input Drug's target gene2\tweight
+input Drug's target gene3\tweight
+....
+``````````````````````````````````````````````````````
+input4 : restart prob 
 
-
+output file
+``````````````````````````````````````````````````````
+input Drug_name\tscore1\tscore2\tscore3\score4......
+````````````````````````````````````````````````````````
  
  
  
