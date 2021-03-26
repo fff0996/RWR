@@ -85,9 +85,31 @@ input Drug's target gene2\tweight
 input Drug's target gene3\tweight
 ....
 ```````````````````````````````````
-Randomwalkingscore.c
+RandomWalkingScoring.c
 =================================
+Randomwalkscoring
 
+input file1: whole_gene (make_genelist.pl output file)
+````````````````````````````````````````````````````````
+#Entrez(integar)
+ gene1
+ gene2
+ gene3
+ gene4
+ gene5
+ gene9
+ gene10
+ .....
+ ```````````````````````````````````````````````````````
+ input file2: net
+ ```````````````````````````````````````````````````````
+ #Entrez(integar)
+gene1\tgene2\tscore
+gene3\tgene4\tscore
+gene3\tgene9\tscore
+....
+````````````````````````````````````````````````````````
+input 
  
  
 
