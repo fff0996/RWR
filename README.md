@@ -1,4 +1,7 @@
 # RWR
+It is RandomWalkScoring(RWR) algorithm that scores associations with nodes in network.
+This directory is repository that contains not only RWR code but also the code to create
+the input file needed to calculate the RWR.
 
 make_genelist.pl
 ====================
